@@ -1,0 +1,228 @@
+body {
+
+    margin: 0px;
+    background-color: #F4EEFF;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5em;
+}
+
+h1 {
+    font-size: 2.3rem;
+}
+
+h2 {
+    color: #1C6758;
+    font-size: 1.8rem;
+}
+
+h3 {
+    color: #3D8361
+}
+
+hr {
+    border-color: #7FBCD2;
+    border-style: none;
+    border-top-style: dotted;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-width: 5px;
+    width: 10%;
+}
+
+a {
+    padding-right: 10px;
+    color: #1e757c;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+
+}
+
+a:hover {
+    color: rgb(26, 78, 82);
+}
+
+.insideTop {
+    padding-bottom: 50%;
+
+}
+
+.h1inTro {
+    display: inline;
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    left: 45%;
+    top: 20%;
+
+}
+
+#introPa {
+
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    left: 42%;
+    top: 30%;
+
+}
+
+#cloudSun {
+    left: 65%;
+    top: 10%;
+    width: 16%;
+    position: absolute;
+
+}
+
+#cloudOnly {
+    position: absolute;
+    width: 10%;
+    left: 25%;
+    top: 30%;
+}
+
+.top {
+    background: url(../image/lake-mountain2.jpeg), no-repeat fixed;
+    background-size: cover;
+    width: 100%;
+}
+
+#happyFace {
+    margin: 2% auto 1% auto;
+    display: block;
+}
+
+
+
+.firstIntoduction {
+    margin: 0 auto;
+    width: 50%;
+}
+
+#firstParagraph {
+    text-align: center;
+}
+
+
+.initialIntroduce {
+    text-align: center;
+    /* Centering the h2 text */
+
+    width: 100%;
+
+    font-family: 'Merriweather', serif;
+}
+
+#skills {
+    display: block;
+    /* Making it a block element */
+    margin: 20px auto;
+    /* Centering the image */
+    max-width: 30%;
+    /* Adjust based on how wide you want the image */
+    height: auto;
+}
+
+#skillIntro {
+    text-align: center;
+    /* Centering content inside this div */
+}
+
+#learningProcess {
+    /* Removing margin-left */
+    max-width: 100%;
+    text-align: center;
+}
+
+#skillParagraph {
+    text-align: center;
+    /* Making sure the paragraph is centered */
+    width: 90%;
+    /* Using 90% width to give some padding on both sides, adjust if needed */
+    margin: 0 auto;
+    /* Centering block elements */
+}
+
+
+
+#contact {
+    display: inline-block;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+/*button*/
+.paragraphContact {
+    margin-top: 4px;
+}
+
+.btn {
+    width: 7%;
+    height: 40px;
+    margin-left: 45%;
+    margin-top: 10px;
+    background: #42b3c2;
+    background-image: -webkit-linear-gradient(top, #42b3c2, #2f6587);
+    background-image: -moz-linear-gradient(top, #42b3c2, #2f6587);
+    background-image: -ms-linear-gradient(top, #42b3c2, #2f6587);
+    background-image: -o-linear-gradient(top, #42b3c2, #2f6587);
+    background-image: linear-gradient(to bottom, #42b3c2, #2f6587);
+    -webkit-border-radius: 13;
+    -moz-border-radius: 13;
+    border-radius: 13px;
+    text-shadow: 0px 0px 3px #666666;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #57bfff;
+    background-image: -webkit-linear-gradient(top, #57bfff, #3498db);
+    background-image: -moz-linear-gradient(top, #57bfff, #3498db);
+    background-image: -ms-linear-gradient(top, #57bfff, #3498db);
+    background-image: -o-linear-gradient(top, #57bfff, #3498db);
+    background-image: linear-gradient(to bottom, #57bfff, #3498db);
+    text-decoration: none;
+}
+
+.bottom-container {
+    margin-top: 50px;
+    background-color: #6dd8e1;
+    height: 5em;
+    padding-top: 40px;
+    padding-left: 42em;
+}
+
+#projectsSection {
+    background-color: #EBE2F3; /* A lighter shade of the body background for distinction */
+    padding: 40px 20%; /* 40px vertical padding and 20% horizontal padding for a centered look */
+    border-radius: 5px; /* Slight rounding of the edges */
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1); /* A soft shadow for depth */
+    margin: 30px 0; /* 30px vertical margin to give spacing from other elements */
+}
+
+#learningProcess {
+    border-bottom: 2px solid #1C6758; /* A greenish underline for the heading from your theme */
+    padding-bottom: 10px; /* Spacing between the heading and its underline */
+    margin-bottom: 20px; /* Spacing between the heading and the description */
+}
+
+#projectDescription {
+    font-family: 'Lato', sans-serif; /* Matching the font family from your existing CSS */
+    font-size: 1.1rem; /* Slightly increased font size for better readability */
+    line-height: 1.6; /* Proper line-height for better readability */
+    color: #555; /* Dark grey color for the text */
+}
+
+#projectDescription a {
+    color: #1e757c; /* Matching the link color from your existing CSS */
+}
+
